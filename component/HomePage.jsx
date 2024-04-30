@@ -25,14 +25,26 @@ function HomePage() {
     }
 
     return (
-       <>
+       <div className='home-background'>
             <div className='home-container'>
                 {errorMsg && <p style={{color: "red"}}>{errorMsg}</p>}
 
                 <img onClick={handleGoogle} src={googleBtn} alt="Google Login" className='google-btn'/>
                 <button onClick={handlebutton}>login</button>
             </div>
-       </>
+            <div className='line-continer'>
+                <div className='line'></div>
+                <div className='line'></div>
+                <div className='line'></div>
+                <div className='line'></div>
+                <div className='line'></div>
+                <div className='line'></div>
+                <div className='line'></div>
+                <div className='line'></div>
+                <div className='line'></div>
+                <div className='line'></div>
+            </div>
+       </div>
     )
 }
 
