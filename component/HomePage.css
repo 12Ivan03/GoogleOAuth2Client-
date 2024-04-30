@@ -1,0 +1,30 @@
+.home-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(250, 235, 215, 0.197);
+    border-radius: 3rem;
+    box-shadow:  0rem 0rem 1rem rgba(250, 235, 215, 0.491);;
+    height: 25rem;
+    width: 20rem;
+}
+
+.google-btn{
+    margin-bottom: 1rem;
+    height: 3.3rem;
+}
+
+img{
+    border-radius: 0.5rem;
+}
+
+.google-btn:hover{
+    cursor: pointer;
+    box-shadow: 0rem 0rem 0.5rem white;
+}
+
+.google-btn:active{
+    cursor: pointer;
+    box-shadow: 0rem 0rem 0.5rem rgb(107, 171, 255);
+}
