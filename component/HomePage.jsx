@@ -43,6 +43,8 @@ function HomePage() {
                 <div className='line'></div>
                 <div className='line'></div>
                 <div className='line'></div>
+                <div className='line'></div>
+                <div className='line'></div>
             </div>
        </div>
     )
